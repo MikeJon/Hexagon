@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hexagon</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="points">
+        <item>跑步</item>
+        <item>篮球</item>
+        <item>游泳</item>
+        <item>台球</item>
+        <item>撩妹</item>
+        <item>牛牛</item>
+    </string-array>
+
+</resources>

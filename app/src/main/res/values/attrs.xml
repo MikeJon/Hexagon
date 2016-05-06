@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <declare-styleable name="SixangleView">
+        <attr name="txtSize" format="dimension" />
+        <attr name="sixangle_edgecolor" format="color" />
+        <attr name="sixangle_fillcolor" format="color" />
+        <attr name="sixangle_secondfillcolor" format="color" />
+        <attr name="sixangle_strarray" format="reference" />
+    </declare-styleable>
+</resources>

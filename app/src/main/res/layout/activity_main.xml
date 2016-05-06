@@ -1,0 +1,21 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sixangle="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_dark"
+    tools:context=".MainActivity">
+
+    <keyword.hexagon.SixangleView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sixangleview"
+        sixangle:sixangle_edgecolor="@android:color/holo_blue_dark"
+        sixangle:sixangle_fillcolor="@color/sixangle_fillcolor"
+        sixangle:sixangle_secondfillcolor="@color/sixangle_secondfillcolor"
+        sixangle:sixangle_strarray="@array/points"
+        />
+
+</RelativeLayout>
